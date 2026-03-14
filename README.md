@@ -48,7 +48,7 @@ todo-app/
 ## 🚀 How to Run the Project
 
 1. Download or clone the repository
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/vinitvala04/To-Do-List-Web-App
 
 
 2. Open the project folder
