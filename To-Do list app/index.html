@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive To-Do App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+    <div class="header">
+      <h1>🚀 To-Do App</h1>
+      <button id="themeBtn">🌙</button>
+    </div>
+
+    <p id="date"></p>
+
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="Enter task..." />
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <p id="progress">0 / 0 Completed</p>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
